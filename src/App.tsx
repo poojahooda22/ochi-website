@@ -5,6 +5,7 @@ import SmoothScroll from './components/SmoothScroll';
 import { useRef } from 'react';
 import Cursor from "./components/StickyCursor/Index";
 import styles from './page.module.scss';
+import LandingPage from './components/LandingPage';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <SmoothScroll>
           <Cursor stickyElement={stickyElement} />
           <Navbar ref={stickyElement} />
+          <LandingPage />
         </SmoothScroll>
       </body>
     </html>
