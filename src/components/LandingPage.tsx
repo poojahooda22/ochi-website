@@ -1,4 +1,6 @@
 // import image from "../assets/images/image.jpg";
+import styles from "./landing.module.scss";
+
 
 function LandingPage() {
   return (
@@ -25,9 +27,8 @@ function LandingPage() {
             )
         })}
         <div>
-            <h4 className="relative text-gray-900 text-sm  px-[18px] 
-                py-[6px] border-[1px] border-[#333] rounded-[50px] overflow-hidden">
-                <a>Start project</a>
+            <h4 className={""}>
+                <a className={`${styles.atag} text-gray-900`}>Start project</a>
             </h4>
         </div>
       </div>
