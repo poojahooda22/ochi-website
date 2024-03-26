@@ -2,8 +2,8 @@
 
 function LandingPage() {
   return (
-    <div>
-      <h2>Hello world</h2>
+    <div className="w-full h-screen">
+      
     </div>
   )
 }
