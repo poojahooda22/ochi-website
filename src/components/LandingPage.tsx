@@ -16,7 +16,7 @@ function LandingPage() {
         })}  
       </div>
 
-      <div className="bottom mb-16">
+      <div className="border-t-[1px]  mb-16">
         {["For public and private companies", "From the first pitch to IPO"].map((item, index) => {
             return (
                 <h4 key={index} >
@@ -24,6 +24,9 @@ function LandingPage() {
                 </h4>
             )
         })}
+        <div>
+
+        </div>
       </div>
     </div>
   )
