@@ -27,7 +27,8 @@ function LandingPage() {
             )
         })}
         <div>
-            <h4 className={""}>
+            <h4 className={`${styles.heading4} relative text-gray-900 text-sm px-[18px] 
+                py-[6px] border-[1px] border-[#333] rounded-[50px] overflow-hidden`}>
                 <a className={`${styles.atag} text-gray-900`}>Start project</a>
             </h4>
         </div>
