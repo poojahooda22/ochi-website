@@ -22,13 +22,13 @@ function LandingPage() {
       <div className="border-t-[1px]  border-zinc-400 mt-40 flex justify-between items-center py-4 px-8 ">
         {["For public and private companies", "From the first pitch to IPO"].map((item, index) => {
             return (
-                <h4 key={index} className="text-gray-900 text-sm font-normal tracking-tight leading-none" >
+                <h4 key={index} className="text-gray-900 text-[14px] font-normal tracking-tight leading-none" >
                     {item}
                 </h4>
             )
         })}
         <div>
-            <h4 className={`${styles.heading4} relative text-gray-900 text-sm px-[18px] 
+            <h4 className={`${styles.heading4} relative text-gray-900 text-[14px] px-[18px] 
                 py-[6px] border-[1px] border-[#333] rounded-[50px] overflow-hidden`}>
                 <a className={`${styles.atag} text-gray-900`}>Start project</a>
             </h4>
