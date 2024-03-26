@@ -1,4 +1,4 @@
-// import image from "../assets/images/image.jpg";
+import image from "../assets/images/image.jpg";
 import styles from "./landing.module.scss";
 
 
@@ -11,7 +11,7 @@ function LandingPage() {
                 <div key={index} className="masker ">
                     <div className="w-fit flex items-center">
                         {index === 1 && 
-                        (<div className="w-[6vw]"> <img src={} /> </div>)
+                        (<div className="w-[6vw]"> <img src={image} /> </div>)
                         }
                         <h1 className={`flex items-center h-full uppercase text-[6vw] tracking-tighter leading-[5.5vw] font-bold`}>
                             {text}    
