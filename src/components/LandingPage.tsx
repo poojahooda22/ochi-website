@@ -1,4 +1,4 @@
-
+import image from "../assets/images/image.jpg";
 
 function LandingPage() {
   return (
@@ -6,9 +6,10 @@ function LandingPage() {
       <div className="textstructure mt-40 px-20">
         {["We Create", "Eye-Opening", "Presentations"].map((text, index) => {
             return (
-                <div className="masker ">
-                    <h1 className="uppercase text-9xl tracking-tighter leading-none font-['Founders_Grotesk'] font-semibold">
-                        We Create
+                <div key={index} className="masker ">
+                    <h1 className={`uppercase text-[12vw] tracking-tighter leading-[5.5vw] font-['Founders_Grotesk'] font-semibold`}>
+                        {text}
+                        {index === 1 && <div> <img src={image } /></div>}
                     </h1>
                 </div>
             )
