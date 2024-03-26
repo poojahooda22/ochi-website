@@ -10,8 +10,8 @@ import styles from './page.module.scss';
 function App() {
   const stickyElement = useRef(null);
   return (
-    <html className={styles.main}>
-      <body>
+    <html >
+      <body className={styles.main}>
         <SmoothScroll>
           <Cursor stickyElement={stickyElement} />
           <Navbar ref={stickyElement} />
