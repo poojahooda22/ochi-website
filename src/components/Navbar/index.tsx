@@ -18,7 +18,7 @@ const Navbar = forwardRef(function index(props, ref) {
       </div>
       <div className="links flex gap-6 items-center">
         {["Services", "Our work", "About us", "Insights"].map((item, index) => (
-          <h4 key={index} className={`${styles.heading4} relative font-medium text-[12px] sm px-[20px] 
+          <h4 key={index} className={`${styles.heading4} relative font-medium text-[12px] sm px-[18px] 
           py-[8px] border-[1px] border-[#333] rounded-[50px] overflow-hidden`}
           >
             <a href="#" className={`${styles.atag} text-gray-900`}>
