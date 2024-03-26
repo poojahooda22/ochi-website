@@ -2,3 +2,11 @@
     height: 200vh;
     background-color: white;
 }
+
+
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: url('./assets/fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+    }
