@@ -16,10 +16,10 @@ function LandingPage() {
         })}  
       </div>
 
-      <div className="border-t-[1px] border-zinc-600 mt-32">
+      <div className="border-t-[1px] border-zinc-400 mt-32 flex ">
         {["For public and private companies", "From the first pitch to IPO"].map((item, index) => {
             return (
-                <h4 key={index} >
+                <h4 key={index} className="text" >
                     {item}
                 </h4>
             )
