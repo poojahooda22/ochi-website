@@ -7,14 +7,13 @@ function LandingPage() {
         {["We Create", "Eye-Opening", "Presentations"].map((text, index) => {
             return (
                 <div key={index} className="masker ">
-                    <h1 className={`uppercase text-[12vw] tracking-tighter leading-[5.5vw] font-['Founders_Grotesk'] font-semibold`}>
+                    <h1 className={`uppercase text-[6vw] tracking-tighter leading-[5.5vw] font-semibold`}>
                         {text}
-                        {index === 1 && <div> <img src={image } /></div>}
+                        {/* {index === 1 && <div> <img src={image } /></div>} */}
                     </h1>
                 </div>
             )
-        })}
-        
+        })}  
       </div>
     </div>
   )
