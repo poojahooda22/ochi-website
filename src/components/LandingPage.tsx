@@ -10,9 +10,9 @@ function LandingPage() {
             return (
                 <div key={index} className="masker ">
                     <div className="w-fit flex items-center">
-                    <h1 className={`flex items-center h-full uppercase text-[6vw] tracking-tighter leading-[5.5vw] font-bold`}>
-                        {text}    
-                    </h1>
+                        <h1 className={`flex items-center h-full uppercase text-[6vw] tracking-tighter leading-[5.5vw] font-bold`}>
+                            {text}    
+                        </h1>
                     </div>
                 </div>
             )
