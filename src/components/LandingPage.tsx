@@ -17,7 +17,13 @@ function LandingPage() {
       </div>
 
       <div className="bottom mb-16">
-
+        {["For public and private companies", "From the first pitch to IPO"].map((item, index) => {
+            return (
+                <h4>
+                    {item}
+                </h4>
+            )
+        })}
       </div>
     </div>
   )
