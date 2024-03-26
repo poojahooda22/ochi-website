@@ -11,7 +11,9 @@ function LandingPage() {
                 <div key={index} className="masker ">
                     <div className="w-fit flex items-center">
                         {index === 1 && 
-                        (<div className="w-[6vw]"> <img src={image} /> </div>)
+                        (<div className="w-[6vw] h-[6vw] relative top-[1.4vw]"> 
+                            <img src={image} className="h-100" /> 
+                        </div>)
                         }
                         <h1 className={`flex items-center h-full uppercase text-[6vw] tracking-tighter leading-[5.5vw] font-bold`}>
                             {text}    
