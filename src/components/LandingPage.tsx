@@ -3,7 +3,7 @@
 function LandingPage() {
   return (
     <div className="w-full h-screen pt-1">
-      <div className="textstructure mt-40 px-20">
+      <div className="textstructure mt-52 px-16">
         {["We Create", "Eye-Opening", "Presentations"].map((text, index) => {
             return (
                 <div key={index} className="masker ">
@@ -14,6 +14,10 @@ function LandingPage() {
                 </div>
             )
         })}  
+      </div>
+
+      <div className="bottom mb-16">
+
       </div>
     </div>
   )
