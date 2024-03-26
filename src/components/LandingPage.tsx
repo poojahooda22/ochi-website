@@ -16,7 +16,7 @@ function LandingPage() {
         })}  
       </div>
 
-      <div className="border-t-[1px] border-zinc-400 mt-32 flex ">
+      <div className="border-t-[1px] border-zinc-400 mt-32 flex justify-center ">
         {["For public and private companies", "From the first pitch to IPO"].map((item, index) => {
             return (
                 <h4 key={index} className="text-md font-light tracking-tight leading-none" >
