@@ -9,9 +9,9 @@ function LandingPage() {
         {["We Create", "Eye-Opening", "Presentations"].map((text, index) => {
             return (
                 <div key={index} className="masker ">
-                    <div className="w-fit flex items-center">
+                    <div className="w-fit flex items-end overflow-hidden">
                         {index === 1 && 
-                        (<div className="w-[6vw] h-[4.3vw] relative -top-[0vw]"> 
+                        (<div className="mr-4 w-[6vw] h-[4.3vw] relative -top-[0vw]"> 
                             <img src={image} className="h-[100%] w-[100%] object-fit" /> 
                         </div>)
                         }
