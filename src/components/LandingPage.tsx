@@ -9,7 +9,7 @@ function LandingPage() {
         {["We Create", "Eye-Opening", "Presentations"].map((text, index) => {
             return (
                 <div key={index} className="masker ">
-                    <div className="w-fit">
+                    <div className="w-fit flex items-center">
                     <h1 className={`flex items-center h-full uppercase text-[6vw] tracking-tighter leading-[5.5vw] font-bold`}>
                         {text}    
                     </h1>
