@@ -9,7 +9,9 @@ function LandingPage() {
         {["We Create", "Eye-Opening", "Presentations"].map((text, index) => {
             return (
                 <div key={index} className="masker ">
-                    
+                    <div>
+                        
+                    </div>
                 </div>
             )
         })}  
