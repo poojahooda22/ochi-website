@@ -8,7 +8,7 @@ function Featured() {
         </div>
         <div className='px-8'>
             <div className='cards w-full flex gap-10 '>
-                <div className='cardcontainer w-1/2 h-[75vh]'>
+                <div className='cardcontainer relative w-1/2 h-[75vh]'>
                     <h1></h1>
                     <div className='card rounded-lg w-full h-full bg-red-500 overflow-hidden'>
                         <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png" />
