@@ -8,6 +8,7 @@ import styles from './page.module.scss';
 import LandingPage from './components/LandingPage';
 // import Marqueue from './components/Marqueue';
 import About from './components/About';
+import Eyes from './components/Eyes';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <LandingPage />
           {/* <Marqueue /> */}
           <About />
+          <Eyes />
         </SmoothScroll>
       </body>
     </html>
