@@ -1,4 +1,6 @@
 import image from '../assets/images/about.jpg'
+import styles from './about.module.scss';
+
 
 function About() {
   return (
@@ -10,16 +12,18 @@ function About() {
         </h1>
 
         <div className="w-full border-t-[1px] mt-24 border-gray-600 flex justify-between">
-            <div>
-                <h2>Our approach</h2>
-                <div>
-                    <h4 className="">
-                        <a className="">Read More</a>
+            <div className='mt-4'>
+                <h2 className='text-4xl mb-4'>Our approach</h2>
+                <div className='w-1/2'>
+                    <h4 className={`${styles.heading4} relative font-medium text-[12px] py-[8px]  px-[12px] text-wrap text-center
+                    bg-[#101112] text-[#fff]
+                    rounded-[50px] overflow-hidden`}>
+                        <a className={`${styles.atag} `}>Read More</a>
                     </h4>
                 </div>
             </div>
-            <div>
-                <img src={image} />
+            <div className='mt-4 w-1/2 h-[60vh]  '>
+                <img src={image} className='  w-[100%] h-[100%] object-cover rounded-xl' />
             </div>
         </div>
     </div>
