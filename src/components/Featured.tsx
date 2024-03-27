@@ -11,7 +11,6 @@ function Featured() {
                 <div className='card w-1/2 h-[60vh] bg-red-500'></div>
                 <div className='card w-1/2 h-[60vh] bg-red-500'></div>
             </div>
-
         </div>
     </div>
   )
