@@ -6,7 +6,7 @@ import { useRef } from 'react';
 import Cursor from "./components/StickyCursor/Index";
 import styles from './page.module.scss';
 import LandingPage from './components/LandingPage';
-// import Marqueue from './components/Marqueue';
+import Marqueue from './components/Marqueue';
 import About from './components/About';
 import Eyes from './components/Eyes';
 import Featured from './components/Featured';
@@ -21,7 +21,7 @@ function App() {
           <Cursor stickyElement={stickyElement} />
           <Navbar ref={stickyElement} />
           <LandingPage />
-          {/* <Marqueue /> */}
+          <Marqueue />
           <About />
           <Eyes />
           <Featured />
