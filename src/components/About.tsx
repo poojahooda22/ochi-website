@@ -8,6 +8,11 @@ function About() {
       businesses that need to raise funds, sell prod­ucts, ex­plain com­plex ideas,
        and hire great peo­ple.
       </h1>
+
+      <div className="w-full border-t-[1px] mt-24 border-gray-600">
+        <div></div>
+        <div></div>
+      </div>
     </div>
   )
 }
