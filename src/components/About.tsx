@@ -23,7 +23,7 @@ function About() {
                 </div>
             </div>
             <div className='mt-4 w-1/2 h-[60vh]  '>
-                <img src={image} className='  w-[100%] h-[100%] object-cover rounded-xl' />
+                <img src={image} className='w-[100%] h-[100%] object-cover rounded-xl' />
             </div>
         </div>
     </div>
