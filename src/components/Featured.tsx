@@ -16,7 +16,7 @@ function Featured() {
                 
                 <div className='cardcontainer w-1/2 h-[75vh]'>
                     <div className='card rounded-lg w-full h-full bg-red-500 overflow-hidden'>
-                    <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png" />
+                    <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg" />
                     </div>
                 </div>
             </div>
