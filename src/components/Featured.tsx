@@ -14,7 +14,11 @@ function Featured() {
                     </div>
                 </div>
                 
-                <div className='card rounded-lg w-1/2 h-[75vh] bg-red-500'></div>
+                <div className='cardcontainer w-1/2 h-[75vh]'>
+                    <div className='card rounded-lg w-full h-full bg-red-500 overflow-hidden'>
+                        <img />
+                    </div>
+                </div>
             </div>
         </div>
     </div>
