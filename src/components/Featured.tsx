@@ -9,7 +9,7 @@ function Featured() {
         <div className='px-8'>
             <div className='cards w-full flex gap-10 '>
                 <div className='cardcontainer relative w-1/2 h-[75vh]'>
-                    <h1 className='absolute text-[#CDEA68]'>Fyde</h1>
+                    <h1 className='absolute text-[#CDEA68] uppercase left-full -translate-x-1/2 top-1/2 -translate-y-1/2 font-medium'>Fyde</h1>
                     <div className='card rounded-lg w-full h-full bg-red-500 overflow-hidden'>
                         <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png" />
                     </div>
