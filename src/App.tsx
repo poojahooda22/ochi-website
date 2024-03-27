@@ -17,7 +17,7 @@ function App() {
     <html >
       <body className={styles.main}>
         <SmoothScroll>
-          <Cursor stickyElement={stickyElement} />
+          {/* <Cursor stickyElement={stickyElement} /> */}
           <Navbar ref={stickyElement} />
           <LandingPage />
           {/* <Marqueue /> */}
