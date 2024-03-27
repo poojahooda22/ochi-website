@@ -10,8 +10,17 @@ function About() {
       </h1>
 
       <div className="w-full border-t-[1px] mt-24 border-gray-600">
-        <div></div>
-        <div></div>
+        <div>
+            <h2>Our approach</h2>
+            <div>
+                <h4 className="">
+                    <a className="">Read More</a>
+                </h4>
+            </div>
+        </div>
+        <div>
+            <img src={} />
+        </div>
       </div>
     </div>
   )
