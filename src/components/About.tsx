@@ -1,4 +1,4 @@
-
+import image from '../assets/images/about.jpg'
 
 function About() {
   return (
@@ -19,7 +19,7 @@ function About() {
             </div>
         </div>
         <div>
-            <img src={} />
+            <img src={image} />
         </div>
       </div>
     </div>
