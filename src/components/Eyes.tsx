@@ -16,8 +16,10 @@ function Eyes() {
                 </div>
                  {/* This is the second eye */}
                 <div className="flex items-center justify-center w-[15vw] h-[15vw] rounded-full bg-zinc-100">
-                    <div className="flex items-center justify-center bg-black w-[10vw] h-[10vw] rounded-full">
-                    <div className=" bg-white w-1/5 h-1/5 rounded-full"></div>
+                    <div className="flex items-center justify-center bg-black w-[10vw] h-[10vw]  rounded-full">
+                        <div className="line w-full h-10">
+                            <div className=" bg-white w-6 h-6 rounded-full"></div>
+                        </div>    
                     </div>
                 </div>
             </div>
