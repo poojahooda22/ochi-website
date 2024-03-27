@@ -1,4 +1,4 @@
-import eyesImg from '../assets/images/eyesImg.jpg'
+
 
 
 function Eyes() {
