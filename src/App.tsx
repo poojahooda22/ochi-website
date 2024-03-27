@@ -9,6 +9,7 @@ import LandingPage from './components/LandingPage';
 // import Marqueue from './components/Marqueue';
 import About from './components/About';
 import Eyes from './components/Eyes';
+import Featured from './components/Featured';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           {/* <Marqueue /> */}
           <About />
           <Eyes />
+          <Featured />
         </SmoothScroll>
       </body>
     </html>
