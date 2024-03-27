@@ -9,15 +9,15 @@ function Eyes() {
                  {/* This is the first eye */}
                 <div className="flex items-center justify-center w-[15vw] h-[15vw] rounded-full bg-zinc-100">
                     <div className="relative bg-zinc-900 w-[10vw] h-[10vw]  rounded-full">
-                        <div className="absolute top-1/2 left-1/2 -translate-x-[50%] line w-full h-10">
+                        <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] line w-full h-10">
                             <div className=" bg-white w-6 h-6 rounded-full"></div>
                         </div>    
                     </div>
                 </div>
                  {/* This is the second eye */}
                 <div className="flex items-center justify-center w-[15vw] h-[15vw] rounded-full bg-zinc-100">
-                    <div className="flex items-center justify-center bg-black w-[10vw] h-[10vw]  rounded-full">
-                        <div className="line w-full h-10">
+                <div className="relative bg-zinc-900 w-[10vw] h-[10vw]  rounded-full">
+                        <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] line w-full h-10">
                             <div className=" bg-white w-6 h-6 rounded-full"></div>
                         </div>    
                     </div>
