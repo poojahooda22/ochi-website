@@ -11,11 +11,11 @@ function LandingPage() {
                 <div key={index} className="masker ">
                     <div className="w-fit flex items-end overflow-hidden">
                         {index === 1 && 
-                        (<div className="mr-4 w-[6vw] h-[4.3vw] rounded-md relative -top-[0vw]"> 
+                        (<div className="mr-[1vw] w-[6vw] h-[4.3vw] rounded-md relative bg-slate-700"> 
                             <img src={image} className="h-[100%] w-[100%] object-fit" /> 
                         </div>)
                         }
-                        <h1 className={` h-full uppercase text-[6vw] tracking-tighter leading-[5.5vw] font-bold`}>
+                        <h1 className={` uppercase text-[6vw] tracking-tighter leading-[5.5vw] font-bold`}>
                             {text}    
                         </h1>
                     </div>
