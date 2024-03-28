@@ -7,7 +7,7 @@ function Featured() {
             <h1 className='text-4xl font-medium tracking-tight '>Featured Projects</h1>    
         </div>
         <div className='px-8'>
-            <div className='cards w-full flex gap-10 '>
+            <div className='cards w-full flex gap-6 '>
                 
                 <div className='cardcontainer relative w-1/2 h-[75vh]'>
                     <h1 className='absolute left-full -translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-[Roboto] tracking-tight leading-none z-[9]'>FYDE</h1>
@@ -17,7 +17,7 @@ function Featured() {
                 </div>
                 <div className='cardcontainer relative w-1/2 h-[75vh]'>
                     <div className='card rounded-lg w-full h-full overflow-hidden'> 
-                    <h1 className='absolute left-full -translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-[Roboto] tracking-tight leading-none z-[9]'>VISE</h1>   
+                        <h1 className='absolute right-full translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-[Roboto] tracking-tight leading-none z-[9]'>VISE</h1>   
                         <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg" />
                     </div>
                 </div>
