@@ -10,8 +10,11 @@ function Featured() {
         useAnimation()
     ];
 
-    const handleHover = (index: any) => {
+    const handleHover = (index: number) => {
         cards[index].start({y: "0"})
+    }
+    const handleHoverEnd = (index: number) => {
+        cards[index].start({y: "100%"})
     }
 
   return (
@@ -23,13 +26,14 @@ function Featured() {
             <div className='cards w-full flex gap-6 '>
                 <motion.div 
                     onHoverStart={() => handleHover(0)} 
+                    onHoverEnd={() => handleHoverEnd(0)}
                     className='cardcontainer relative w-1/2 h-[75vh]'>                    
                     <h1 className='absolute flex right-0 translate-x-1/2 overflow-hidden -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-semibold font-[Roboto] tracking-tight leading-none z-[9]'>
                         {"FYDE".split('').map((item, index) => 
                             (<motion.span 
                                 initial={{y: "100%"}} 
                                 animate={cards[0]}
-                                transition={{ease: [0.22, 1, 0.36, 1], delay: index * 0.2}}
+                                transition={{ease: [0.22, 1, 0.36, 1], delay: index * .05}}
                                 className='inline-block'
                             >
                                 {item}
@@ -40,7 +44,8 @@ function Featured() {
                         <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png" />
                     </div>
                 </motion.div>
-                <div className='cardcontainer relative w-1/2 h-[75vh]'>
+                <motion.div 
+                    className='cardcontainer relative w-1/2 h-[75vh]'>
                     <div className='card rounded-lg w-full h-full overflow-hidden'> 
                         <h1 className='absolute flex right-full translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-semibold font-[Roboto] tracking-tight leading-none z-[9]'>
                             {"VISE".split('').map((item, index) => 
@@ -49,7 +54,7 @@ function Featured() {
                         </h1>   
                         <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg" />
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     </div>
