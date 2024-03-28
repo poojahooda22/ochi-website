@@ -22,11 +22,13 @@ function Featured() {
         <div className='px-8'>
             <div className='cards w-full flex gap-6 '>
                 <motion.div 
-                    onHoverStart={() => handleHover(0)} className='cardcontainer relative w-1/2 h-[75vh]'>                    
-                    <h1 className='absolute flex right-0 translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-semibold font-[Roboto] tracking-tight leading-none z-[9]'>
+                    onHoverStart={() => handleHover(0)} 
+                    className='cardcontainer relative w-1/2 h-[75vh]'>                    
+                    <h1 className='absolute flex right-0 translate-x-1/2 overflow-hidden -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-semibold font-[Roboto] tracking-tight leading-none z-[9]'>
                         {"FYDE".split('').map((item, index) => 
                             (<motion.span 
                                 initial={{y: "100%"}} animate={cards[0]}
+                                transition={{ease: [], delay: index * 0.2}}
                                  className='inline-block'>
                                 {item}
                             </motion.span>)
