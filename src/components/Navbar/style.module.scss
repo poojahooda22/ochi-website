@@ -30,7 +30,7 @@
   }
 
 .header {
-    position: fixed;
+    
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -39,6 +39,7 @@
     box-sizing: border-box;
     cursor: pointer;
     z-index: 1;
+    
     .burger {
         position: relative;
         display: flex;
@@ -47,6 +48,7 @@
         padding: 30px;
         cursor: pointer;
         pointer-events: none;
+        color: rgb(13, 14, 17);   
         &::before, &::after{
             display: block;
             content: "";
