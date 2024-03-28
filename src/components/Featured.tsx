@@ -6,7 +6,9 @@ import {motion, useAnimate} from 'framer-motion';
 function Featured() {
     const all = [useAnimate(), useAnimate()];
 
-    
+    const handleHover = () => {
+
+    }
 
   return (
     <div className='w-full py-20'>
@@ -16,7 +18,7 @@ function Featured() {
         <div className='px-8'>
             <div className='cards w-full flex gap-6 '>
                 
-                <div className='cardcontainer relative w-1/2 h-[75vh]'>                    
+                <motion.div onHoverStart={() => handleHover} className='cardcontainer relative w-1/2 h-[75vh]'>                    
                     <h1 className='absolute flex right-0 translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-semibold font-[Roboto] tracking-tight leading-none z-[9]'>
                         {"FYDE".split('').map((item, index) => 
                             <span key={index}>
@@ -27,7 +29,7 @@ function Featured() {
                     <div className='card rounded-lg w-full h-full overflow-hidden'>
                         <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png" />
                     </div>
-                </div>
+                </motion.div>
                 <div className='cardcontainer relative w-1/2 h-[75vh]'>
                     <div className='card rounded-lg w-full h-full overflow-hidden'> 
                         <h1 className='absolute flex right-full translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-semibold font-[Roboto] tracking-tight leading-none z-[9]'>
