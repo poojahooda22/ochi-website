@@ -14,7 +14,13 @@ function Marqueue() {
         >
           We are ochi
         </motion.h1>
-        <motion.h1 className="uppercase font-bold text-[20vw] leading-none text-white">
+        <motion.h1 
+          initial={{x: "0"}}
+          animate={{x: "-100%"}}
+          transition={{ repeat: Infinity, ease: "linear", duration: 5}}
+          className="uppercase font-bold text-[20vw] leading-none tracking-tighter mr-20
+          text-white "
+        >
           We are ochi
         </motion.h1>
         
