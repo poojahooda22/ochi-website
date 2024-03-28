@@ -16,7 +16,7 @@ function About() {
             <div className='mt-4'>
                 <h2 className='text-4xl mb-4'>Our approach</h2>
                 <div className='w-1/2'>
-                    <h4 className={`${styles.heading4} relative font-medium text-[12px] py-[8px]  px-[12px] text-wrap text-center
+                    <h4 className={`${styles.heading4} relative font-medium border-[1px] border-black text-[12px] py-[8px]  px-[12px] text-wrap text-center
                     bg-[#101112] text-[#fff]
                     rounded-[50px] overflow-hidden`}>
                         <a className={`${styles.atag} `}>Read More</a>
