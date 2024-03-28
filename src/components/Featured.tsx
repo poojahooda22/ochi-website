@@ -47,6 +47,8 @@ function Featured() {
                     </div>
                 </motion.div>
                 <motion.div 
+                    whileHover={{ scale: .9 }}
+                    whileTap={{ scale: 1 }}
                     onHoverStart={() => handleHover(1)} 
                     onHoverEnd={() => handleHoverEnd(1)}
                     className='cardcontainer relative w-1/2 h-[75vh]'>
