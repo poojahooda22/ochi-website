@@ -1,35 +1,41 @@
-
-import './App.css'
+import { useEffect, useRef } from 'react';
+import './App.css';
 import Navbar from './components/Navbar/Index';
-
-
 import styles from './page.module.scss';
 import LandingPage from './components/LandingPage';
 import Marqueue from './components/Marqueue';
 import About from './components/About';
 import Eyes from './components/Eyes';
 import Featured from './components/Featured';
-import SmoothScroll from './components/SmoothScroll';
-import Cursor from './components/Cursor';
-
+import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
+  const scrollRef = useRef(null);
+
+  useEffect(() => {
+    if (scrollRef.current) {
+      const scroll = new LocomotiveScroll({
+        el: scrollRef.current,
+        smooth: true,
+        // other options here
+      });
+
+      return () => {
+        scroll.destroy();
+      };
+    }
+  }, []);
+
   return (
-    <html >
-      <body className={styles.main}>
-        <SmoothScroll>
-        <Cursor />
-          <Navbar />
-          <LandingPage />
-          <Marqueue />
-          <About />
-          <Eyes />
-          <Featured />
-        </SmoothScroll>  
-      </body>
-    </html>
-    
-  )
+    <div ref={scrollRef} className={styles.main}> 
+        <Navbar />
+        <LandingPage />
+        <Marqueue />
+        <About />
+        <Eyes />
+        <Featured />
+    </div>
+  );
 }
 
 export default App;
