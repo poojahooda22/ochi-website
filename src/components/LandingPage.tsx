@@ -5,7 +5,7 @@ import {motion} from "framer-motion";
 
 function LandingPage() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed=".3"  className="w-full h-screen pt-1">
+    <div data-scroll data-scroll-speed="-.3"  className="w-full h-screen pt-1">
       <div className="textstructure mt-40 px-8">
         {["We Create", "Eye-Opening", "Presentations"].map((text, index) => {
             return (
