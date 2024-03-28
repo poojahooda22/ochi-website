@@ -15,8 +15,9 @@ function LandingPage() {
                         (<motion.div 
                             initial={{width: 0}} 
                             animate={{width: "6vw"}} 
-                            transition={{ease: [0.76, 0, 0.24, 1]}}
-                            className="mr-[1vw] w-[6vw] h-[4.3vw] rounded-md relative bg-slate-700"> 
+                            transition={{ease: [0.76, 0, 0.24, 1], duration: 1}}
+                            className="mr-[1vw] w-[6vw] h-[4.3vw] rounded-md relative bg-slate-700"
+                            > 
                                 <img src={image} className="h-[100%] w-[100%] object-fit" /> 
                         </motion.div>)
                         }
