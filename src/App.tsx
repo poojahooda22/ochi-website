@@ -10,6 +10,7 @@ import About from './components/About';
 import Eyes from './components/Eyes';
 import Featured from './components/Featured';
 import SmoothScroll from './components/SmoothScroll';
+import Cursor from './components/Cursor';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <html >
       <body className={styles.main}>
         <SmoothScroll>
+        <Cursor />
           <Navbar />
           <LandingPage />
           <Marqueue />
