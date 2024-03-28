@@ -10,9 +10,11 @@ function Featured() {
             <div className='cards w-full flex gap-10 '>
                 <div className='cardcontainer relative w-1/2 h-[75vh]'>
                     <h1 className='absolute text-[#CDEA68] uppercase left-full -translate-x-1/2 top-1/2 -translate-y-1/2 leading-none tracking-tighter text-7xl font-medium'>
-                        {"FYDE".split("").map((item, index) => (
-                            <span key={index}>{item}</span>
-                        ))}
+                        <h1 className='absolute text-[#CDEA68] uppercase left-full -translate-x-1/2 top-1/2 -translate-y-1/2 leading-none tracking-tighter text-7xl font-medium'>
+                            {"FYDE".split("").map((item, index) => (
+                                <span key={index}>{item}</span>
+                            ))}
+                        </h1>
                     </h1>
                     <div className='card rounded-lg w-full h-full overflow-hidden'>
                         <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png" />
