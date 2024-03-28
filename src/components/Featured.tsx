@@ -1,8 +1,6 @@
 
 import {motion, useAnimation} from 'framer-motion';
 
-
-
 function Featured() {
 
     const cards = [
