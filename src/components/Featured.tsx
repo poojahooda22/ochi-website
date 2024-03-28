@@ -26,7 +26,7 @@ function Featured() {
                     <h1 className='absolute flex right-0 translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-semibold font-[Roboto] tracking-tight leading-none z-[9]'>
                         {"FYDE".split('').map((item, index) => 
                             <motion.span 
-                                initial={{y: "100%"}}
+                                initial={{y: "100%"}} animate={cards[0]}
                                 key={index} className='inline-block'>
                                 {item}
                             </motion.span>
