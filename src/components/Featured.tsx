@@ -25,18 +25,19 @@ function Featured() {
         <div className='px-8'>
             <div className='cards w-full flex gap-4 '>
                 <motion.div 
-                    whileHover={{ scale: .9 }}
-                    whileTap={{ scale: 1 }}
+                    whileHover={{ scale: .95, zIndex: 1 }}
+                    whileTap={{ scale: 1.1 }}
+                    transition={{ease: [0.76, 0, 0.24, 1]}}
                     onHoverStart={() => handleHover(0)} 
                     onHoverEnd={() => handleHoverEnd(0)}
                     className='cardcontainer relative w-1/2 h-[75vh]'>                    
-                    <h1 className='absolute flex right-0 translate-x-1/2 overflow-hidden -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-semibold font-[Roboto] tracking-wide leading-none z-[9]'>
+                    <h1 className='absolute flex right-0 translate-x-1/2 overflow-hidden -translate-y-1/2 text-[#CDEA68] top-1/2 text-[6vw] font-semibold font-[Roboto] tracking-wide leading-none z-[9]'>
                         {"FYDE".split('').map((item, index) => 
                             (<motion.span 
                                 initial={{y: "100%"}} 
                                 animate={cards[0]}
                                 transition={{ease: [0.22, 1, 0.36, 1], delay: index * .05}}
-                                className='inline-block'
+                                className='inline-block '
                             >
                                 {item}
                             </motion.span>)
@@ -47,13 +48,14 @@ function Featured() {
                     </div>
                 </motion.div>
                 <motion.div 
-                    whileHover={{ scale: .9 }}
-                    whileTap={{ scale: 1 }}
+                    whileHover={{ scale: .95, }}
+                    whileTap={{ scale: 1.1 }}
+                    transition={{ease: [0.76, 0, 0.24, 1]}}
                     onHoverStart={() => handleHover(1)} 
                     onHoverEnd={() => handleHoverEnd(1)}
                     className='cardcontainer relative w-1/2 h-[75vh]'>
                     <div className='card rounded-lg w-full h-full overflow-hidden'> 
-                        <h1 className='absolute flex right-full translate-x-1/2 overflow-hidden -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-semibold font-[Roboto] tracking-wide leading-none z-[9]'>
+                        <h1 className='absolute flex right-full translate-x-1/2 overflow-hidden -translate-y-1/2 text-[#CDEA68] top-1/2 text-[6vw] font-semibold font-[Roboto] tracking-wide leading-none z-[9]'>
                             {"VISE".split('').map((item, index) => 
                                 (<motion.span 
                                     initial={{y: "100%"}} 
