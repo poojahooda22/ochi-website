@@ -4,6 +4,9 @@ import {motion, useAnimate} from 'framer-motion';
 
 
 function Featured() {
+    const all = [useAnimate(), useAnimate()];
+
+    
 
   return (
     <div className='w-full py-20'>
