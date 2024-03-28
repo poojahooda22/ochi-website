@@ -21,9 +21,9 @@ function Featured() {
                 <motion.div onHoverStart={() => handleHover} className='cardcontainer relative w-1/2 h-[75vh]'>                    
                     <h1 className='absolute flex right-0 translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-semibold font-[Roboto] tracking-tight leading-none z-[9]'>
                         {"FYDE".split('').map((item, index) => 
-                            <span key={index}>
+                            <motion.span key={index} className='inline-block'>
                                 {item}
-                            </span>
+                            </motion.span>
                         )}
                     </h1>  
                     <div className='card rounded-lg w-full h-full overflow-hidden'>
