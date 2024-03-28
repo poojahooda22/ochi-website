@@ -1,13 +1,17 @@
 import React, {useState} from 'react';
-import {motion, useAnimate} from 'framer-motion';
+import {motion, useAnimation} from 'framer-motion';
 
 
 
 function Featured() {
-    const all = [useAnimate(), useAnimate()];
 
-    const handleHover = () => {
+    const cards = [
+        useAnimation(),
+        useAnimation()
+    ];
 
+    const handleHover = (index: number) => {
+        cards[index].start({y: "0"})
     }
 
   return (
@@ -21,7 +25,8 @@ function Featured() {
                 <motion.div onHoverStart={() => handleHover} className='cardcontainer relative w-1/2 h-[75vh]'>                    
                     <h1 className='absolute flex right-0 translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-semibold font-[Roboto] tracking-tight leading-none z-[9]'>
                         {"FYDE".split('').map((item, index) => 
-                            <motion.span key={index} className='inline-block'>
+                            <motion.span 
+                                key={index} className='inline-block'>
                                 {item}
                             </motion.span>
                         )}
