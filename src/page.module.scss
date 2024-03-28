@@ -4,9 +4,26 @@
 }
 
 
-    @font-face {
+@font-face {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        src: url('./assets/fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
-    }
+        src: url('./assets/fonts/font1.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto1';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/NeueMontreal-Regular.ttf') format('truetype');
+}
+
+
+body {
+    font-family: 'Roboto1', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0d100ee2;
+    margin: 0;
+    padding: 0;
+    
+}
