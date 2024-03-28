@@ -16,12 +16,12 @@ function LandingPage() {
                             initial={{width: 0}} 
                             animate={{width: "6vw"}} 
                             transition={{ease: [0.76, 0, 0.24, 1], duration: 1}}
-                            className="mr-[1vw] w-[6vw] h-[4.3vw] rounded-md relative bg-slate-700"
+                            className="mr-[1vw] w-[7vw] h-[5vw] rounded-md relative bg-slate-700"
                             > 
                                 <img src={image} className="h-[100%] w-[100%] object-fit" /> 
                         </motion.div>)
                         }
-                        <h1 className={` uppercase text-[6vw] tracking-tighter leading-[5.5vw] font-bold`}>
+                        <h1 className={` uppercase text-[8vw] font-[Roboto] tracking-normal leading-[6vw] font-bold`}>
                             {text}    
                         </h1>
                     </div>
