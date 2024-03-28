@@ -11,7 +11,7 @@ function Featured() {
                 
                 <div className='cardcontainer relative w-1/2 h-[75vh]'>
                     <h1 className='absolute left-full -translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-[Roboto] tracking-tight leading-none z-[9]'>
-                    <h1 className='absolute right-full translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-[Roboto] tracking-tight leading-none z-[9]'>
+                        <h1 className='absolute right-full translate-x-1/2 -translate-y-1/2 text-[#CDEA68] top-1/2 text-[5vw] font-[Roboto] tracking-tight leading-none z-[9]'>
                             {"VISE".split('').map((item, index) => 
                                 <span key={index}>{item}</span>
                             )}
