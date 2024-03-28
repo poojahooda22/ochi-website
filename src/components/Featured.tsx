@@ -8,15 +8,16 @@ function Featured() {
         </div>
         <div className='px-8'>
             <div className='cards w-full flex gap-10 '>
+                <div className='headings absolute'>
+
+                </div>
                 <div className='cardcontainer relative w-1/2 h-[75vh]'>
-                    
                     <div className='card rounded-lg w-full h-full overflow-hidden'>
                         <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png" />
                     </div>
                 </div>
                 <div className='cardcontainer relative w-1/2 h-[75vh]'>
-                    <div className='card rounded-lg w-full h-full overflow-hidden'>
-                        
+                    <div className='card rounded-lg w-full h-full overflow-hidden'>    
                         <img className='w-full h-full bg-cover' src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg" />
                     </div>
                 </div>
