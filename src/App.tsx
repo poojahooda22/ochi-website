@@ -20,7 +20,7 @@ function App() {
   return (
     <html >
       <body className={styles.main}>
-          <Cursor stickyElement={stickyElement} />
+          {/* <Cursor stickyElement={stickyElement} /> */}
           <Navbar ref={stickyElement} />
           <LandingPage />
           <Marqueue />
