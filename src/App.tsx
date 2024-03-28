@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import './App.css';
-import Navbar from './components/Navbar/Index';
+import Navbar from './components/Navbar/index';
 import styles from './page.module.scss';
 import LandingPage from './components/LandingPage';
 import Marqueue from './components/Marqueue';
