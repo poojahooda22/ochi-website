@@ -4,7 +4,7 @@ import styles from './about.module.scss';
 
 function About() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-.2"
+    <div data-scroll data-scroll-section data-scroll-speed="-.1"
     className="w-full py-20 px-8 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl">
         <h1 className="text-[4vw] leading-[4.5vw] tracking-tight">
         Ochi is a strategic partner for fast-grow­ing tech 
