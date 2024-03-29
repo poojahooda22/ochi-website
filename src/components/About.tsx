@@ -12,8 +12,8 @@ function About() {
         and hire great peo­ple.
         </h1>
 
-        <div className="w-full border-t-[1px] mt-24 border-gray-600 flex justify-between">
-            <div className='mt-4'>
+        <div className="w-full border-t-[1px] mt-24 border-gray-600 flex justify-between ">
+            <div className='mt-8 w-1/5 '>
                 <h2 className='text-5xl mb-4'>Our approach</h2>
                 <div className='w-1/2'>
                     <h4 className={`${styles.heading4} relative font-medium border-[1px] border-black text-[1vw] py-[8px]  px-[12px] text-wrap text-center
@@ -23,7 +23,7 @@ function About() {
                     </h4>
                 </div>
             </div>
-            <div className='mt-4 w-1/2 h-[60vh]  '>
+            <div className='mt-8 w-1/2 h-[60vh]  '>
                 <img src={image} className='w-[100%] h-[100%] object-cover rounded-xl' />
             </div>
         </div>
