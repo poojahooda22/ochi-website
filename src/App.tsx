@@ -16,8 +16,7 @@ function App() {
     if (scrollRef.current) {
       const scroll = new LocomotiveScroll({
         el: scrollRef.current,
-        smooth: true,
-        // other options here
+        smooth: true, 
       });
 
       return () => {
