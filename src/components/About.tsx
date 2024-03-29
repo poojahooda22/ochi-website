@@ -13,10 +13,11 @@ function About() {
         </h1>
 
         <div className="w-full border-t-[1px] mt-24 border-gray-600 flex justify-between ">
-            <div className='mt-8 w-1/5 '>
-                <h2 className='text-5xl mb-4'>Our approach</h2>
-                <div className='w-1/2'>
-                    <h4 className={`${styles.heading4} relative font-medium border-[1px] border-black text-[1vw] py-[8px]  px-[12px] text-wrap text-center
+            <div className='mt-8 w-1/5  '>
+                <h2 className='text-5xl mb-6'>Our approach</h2>
+                <div className='w-2/5'>
+                    <h4 className={`${styles.heading4} relative font-medium border-[1px] border-black text-[1vw] py-[8px]  
+                    px-[10px] text-wrap text-center
                     bg-[#101112] text-[#fff]
                     rounded-[50px] overflow-hidden`}>
                         <a className={`${styles.atag}  `}>Read More</a>
