@@ -1,3 +1,6 @@
+
+
+
 .heading4 {
     &::after {
       content: '';
@@ -39,6 +42,9 @@
     box-sizing: border-box;
     cursor: pointer;
     z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    
     
     .burger {
         position: relative;
