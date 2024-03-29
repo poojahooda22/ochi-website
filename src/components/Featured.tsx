@@ -60,7 +60,7 @@ function Featured() {
                 >
                     <div className='card rounded-lg w-full h-full overflow-hidden'> 
                         <h1 className='absolute flex right-full translate-x-1/2 overflow-hidden -translate-y-1/2 text-[#CDEA68] 
-                        top-1/2 text-[6vw] font-semibold font-[Roboto] tracking-wide leading-none z-[9]'>
+                            top-1/2 text-[6vw] font-semibold font-[Roboto] tracking-wide leading-none z-[9]'>
                             {"VISE".split('').map((item, index) => 
                                 (<motion.span 
                                     key={index}
