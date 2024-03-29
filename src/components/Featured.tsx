@@ -48,7 +48,7 @@ function Featured() {
                     </h1>  
                     <div className='card rounded-lg w-full h-full overflow-hidden'>
                         <img 
-                        className='w-full h-full bg-cover' 
+                            className='w-full h-full bg-cover' 
                         src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png" />
                     </div>
                 </motion.div>
