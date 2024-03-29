@@ -32,7 +32,8 @@ function Featured() {
                 >                    
                     <h1 
                         className='absolute flex right-0 translate-x-1/2 overflow-hidden -translate-y-1/2 text-[#CDEA68] top-1/2 
-                        text-[6vw] font-semibold font-[Roboto] tracking-wide leading-none z-[9]'>
+                        text-[6vw] font-semibold font-[Roboto] tracking-wide leading-none z-[9]'
+                    >
                         {"FYDE".split('').map((item, index) => 
                             (<motion.span
                                 key={index} 
