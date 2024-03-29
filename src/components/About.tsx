@@ -6,7 +6,7 @@ function About() {
   return (
     <div data-scroll data-scroll-section data-scroll-speed="-.1"
     className="w-full py-20 px-8 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl">
-        <h1 className="text-[4vw] leading-[4.5vw] tracking-tight">
+        <h1 className=" w-3/4 text-[3.5vw] leading-[3.5vw] tracking-tight">
             Ochi is a strategic partner for fast-grow­ing tech 
             businesses that need to raise funds, sell prod­ucts, ex­plain com­plex ideas,
             and hire great peo­ple.
@@ -17,12 +17,12 @@ function About() {
                 <h2 className='text-5xl mb-6'>Our approach</h2>
                 <div className='w-2/5'>
                     <h4 
-                        className={`${styles.heading4} relative font-medium border-[1px] border-black text-[1vw] py-[8px]  
-                        px-[10px] text-wrap text-center
+                        className={`${styles.heading4} relative border-[1px] border-black text-[1vw] py-[8px]  
+                        px-[10px] text-wrap text-center 
                         bg-[#101112] text-[#fff]
                         rounded-[50px] overflow-hidden`}
                     >
-                        <a className={`${styles.atag}`}>Read More</a>
+                        <a className={`${styles.atag} font-normal` }>Read More</a>
                     </h4>
                 </div>
             </div>
