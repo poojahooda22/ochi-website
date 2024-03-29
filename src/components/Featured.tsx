@@ -78,7 +78,8 @@ function Featured() {
                                 </motion.span>)
                             )}
                         </h1>   
-                        <img className='w-full h-full bg-cover' 
+                        <img 
+                            className='w-full h-full bg-cover' 
                             src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg"
                         />
                     </div>
