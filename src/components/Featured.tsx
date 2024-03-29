@@ -19,7 +19,8 @@ function Featured() {
     <div className='w-full py-20'>
         <div className='w-full px-8 border-b-[1px] border-zinc pb-10 mb-10'>
             <h1 className='text-4xl font-medium tracking-tight '>
-                Featured Projects</h1>    
+                Featured Projects
+            </h1>    
         </div>
         <div className='px-8'>
             <div className='cards w-full flex gap-4 '>
