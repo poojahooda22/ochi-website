@@ -22,7 +22,8 @@ function Featured() {
                 Featured Projects
             </h1>    
         </div>
-        <div className='px-8'>
+        <div 
+        className='px-8'>
             <div 
                 className='cards w-full flex gap-4 '
             >
