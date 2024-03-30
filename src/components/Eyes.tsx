@@ -38,7 +38,8 @@ function Eyes() {
                     rounded-full bg-zinc-100"
                 >
                     <div  
-                        className="relative bg-zinc-900 w-[10vw] h-[10vw]  rounded-full"
+                        className="relative bg-zinc-900 w-[10vw] 
+                        h-[10vw]  rounded-full"
                     >
                         <div 
                             style={{transform: `translate(-50%, -50%) rotate(${rotate}deg)`}} 
