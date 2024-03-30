@@ -43,7 +43,8 @@ function Eyes() {
                     >
                         <div 
                             style={{transform: `translate(-50%, -50%) rotate(${rotate}deg)`}} 
-                            className="line absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] line w-full h-10"
+                            className="line absolute top-1/2 left-1/2 -translate-x-[50%] 
+                            -translate-y-[50%] line w-full h-10"
                         >
                             <div className=" bg-white w-6 h-6 rounded-full"></div>
                         </div>   
