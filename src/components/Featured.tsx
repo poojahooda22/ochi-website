@@ -69,7 +69,8 @@ function Featured() {
                     className='cardcontainer relative w-1/2 h-[75vh]'
                 >
                     <div 
-                        className='card rounded-lg w-full h-full overflow-hidden'> 
+                        className='card rounded-lg w-full h-full overflow-hidden'
+                        > 
                         <h1 
                             className='absolute flex right-full translate-x-1/2 
                             overflow-hidden -translate-y-1/2 text-[#CDEA68] 
