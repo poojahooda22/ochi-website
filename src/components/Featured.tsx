@@ -50,7 +50,8 @@ function Featured() {
                         )}
                     </h1>  
                     <div 
-                        className='card rounded-lg w-full h-full overflow-hidden'
+                        className='card rounded-lg w-full h-full 
+                        overflow-hidden'
                     >
                         <img 
                             className='w-full h-full bg-cover' 
