@@ -51,7 +51,8 @@ function Eyes() {
                     </div>
                 </div>
                  {/* This is the second eye */}
-                <div className="flex items-center justify-center w-[15vw] h-[15vw] rounded-full bg-zinc-100">
+                <div 
+                    className="flex items-center justify-center w-[15vw] h-[15vw] rounded-full bg-zinc-100">
                     <div  className="relative bg-zinc-900 w-[10vw] h-[10vw]  rounded-full">
                         <div 
                             style={{transform: `translate(-50%, -50%) rotate(${rotate}deg)`}} 
