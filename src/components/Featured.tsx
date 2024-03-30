@@ -24,7 +24,7 @@ function Featured() {
         </div>
         <div className='px-8'>
             <div 
-            className='cards w-full flex gap-4 '>
+                className='cards w-full flex gap-4 '>
                 <motion.div 
                     whileHover={{ scale: .95, zIndex: 1 }}
                     whileTap={{ scale: 1.1 }}
