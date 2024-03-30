@@ -17,7 +17,8 @@ function Featured() {
 
   return (
     <div 
-        className='w-full py-20'>
+        className='w-full py-20'
+        >
         <div 
             className='w-full px-8 border-b-[1px] 
             border-zinc pb-10 mb-10'
