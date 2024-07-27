@@ -8,7 +8,7 @@ function Marqueue() {
           initial={{x: "0"}}
           animate={{x: "-100%"}}
           transition={{ repeat: Infinity, ease: "linear", duration: 5}}
-          className="uppercase font-bold text-[20vw] font-[Roboto] leading-none tracking-normal mr-10
+          className="uppercase font-bold sm:text-[20vw] font-[Roboto] leading-none tracking-normal mr-10
           text-white "
         >
           We are ochi
@@ -17,7 +17,7 @@ function Marqueue() {
           initial={{x: "0"}}
           animate={{x: "-100%"}}
           transition={{ repeat: Infinity, ease: "linear", duration: 5}}
-          className="uppercase font-bold text-[20vw] font-[Roboto] leading-none tracking-normal mr-10
+          className="uppercase font-bold sm:text-[20vw] font-[Roboto] leading-none tracking-normal mr-10
           text-white "
         >
           We are ochi
@@ -26,7 +26,7 @@ function Marqueue() {
           initial={{x: "0"}}
           animate={{x: "-100%"}}
           transition={{ repeat: Infinity, ease: "linear", duration: 5}}
-          className="uppercase font-bold text-[20vw] font-[Roboto] leading-none tracking-normal mr-10
+          className="uppercase font-bold sm:text-[20vw] font-[Roboto] leading-none tracking-normal mr-10
           text-white "
         >
           We are ochi
