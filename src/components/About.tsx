@@ -12,7 +12,7 @@ function About() {
             and hire great peo­ple.
         </h1>
 
-        <div className="w-full border-t-[1px] mt-24 border-gray-600 flex justify-between ">
+        <div className="w-full border-t-[1px] mt-24 border-gray-600 sm:flex justify-between ">
             <div className='mt-8 w-1/5  '>
                 <h2 className='text-5xl mb-6'>Our approach</h2>
                 <div className='w-2/5'>
