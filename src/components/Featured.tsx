@@ -42,7 +42,7 @@ function Featured() {
                     transition={{ease: [0.76, 0, 0.24, 1]}}
                     onHoverStart={() => handleHover(0)} 
                     onHoverEnd={() => handleHoverEnd(0)}
-                    className='cardcontainer relative w-1/2 h-[75vh]'
+                    className='cardcontainer relative sm:w-1/2 h-[75vh]'
                 >                    
                     <h1 
                         className='absolute flex right-0 translate-x-1/2 
