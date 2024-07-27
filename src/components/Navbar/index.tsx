@@ -1,6 +1,7 @@
 import styles from './style.module.scss';
 import {useState} from 'react';
 import {motion, useScroll, useMotionValueEvent } from 'framer-motion';
+import { RiMenu3Fill } from "react-icons/ri";
 
 function Navbar () {
   const {scrollY} = useScroll();
@@ -47,6 +48,11 @@ function Navbar () {
             </a>
           </h4>
         ))}
+      </div>
+      <div className='inline-block sm:hidden'>
+        <RiMenu3Fill 
+          size={22}
+        />
       </div>
     </motion.div>
   )
