@@ -48,7 +48,10 @@ function Navbar () {
           </h4>
         ))}
       </div>
-      <div></div>
+      <div>
+        <RiMenu3Fill 
+        />
+      </div>
     </motion.div>
   )
 }
