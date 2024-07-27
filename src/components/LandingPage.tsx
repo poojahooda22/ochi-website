@@ -24,7 +24,7 @@ function LandingPage() {
                                 <img src={image} className="h-[100%] w-[100%] object-fit" /> 
                         </motion.div>)
                         }
-                        <h1 className={` uppercase text-[8vw] font-[Roboto] tracking-normal leading-[6vw] font-bold`}>
+                        <h1 className={` uppercase text-[14vw] leading-[11vw] sm:text-[8vw] font-[Roboto] tracking-normal sm:leading-[6vw] font-bold`}>
                             {text}    
                         </h1>
                     </div>
