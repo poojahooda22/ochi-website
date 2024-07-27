@@ -78,7 +78,7 @@ function Featured() {
                     transition={{ease: [0.76, 0, 0.24, 1]}}
                     onHoverStart={() => handleHover(1)} 
                     onHoverEnd={() => handleHoverEnd(1)}
-                    className='cardcontainer relative w-1/2 h-[75vh]'
+                    className='cardcontainer relative sm:w-1/2 h-[75vh]'
                 >
                     <div 
                         className='card rounded-lg w-full h-full 
