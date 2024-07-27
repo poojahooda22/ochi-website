@@ -6,7 +6,7 @@ function About() {
   return (
     <div data-scroll data-scroll-section data-scroll-speed="-.1"
     className="w-full py-20 px-8 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl">
-        <h1 className=" w-3/4 sm:text-[3.5vw] leading-[3.5vw] tracking-tight">
+        <h1 className=" sm:w-3/4 text-[8vw] leading-[7vw] sm:text-[3.5vw] sm:leading-[3.5vw] tracking-tight">
             Ochi is a strategic partner for fast-grow­ing tech 
             businesses that need to raise funds, sell prod­ucts, ex­plain com­plex ideas,
             and hire great peo­ple.
