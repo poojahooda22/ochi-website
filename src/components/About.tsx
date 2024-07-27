@@ -14,7 +14,7 @@ function About() {
 
         <div className="w-full border-t-[1px] mt-24 border-gray-600 sm:flex justify-between ">
             <div className='mt-8 sm:w-1/5  '>
-                <h2 className='sm:text-5xl mb-6'>Our approach</h2>
+                <h2 className='text-4xl sm:text-5xl mb-6'>Our approach:</h2>
                 <div className='w-1/3 sm:w-2/5'>
                     <h4 
                         className={`${styles.heading4} relative border-[1px] border-black sm:text-[1vw] py-[8px]  
