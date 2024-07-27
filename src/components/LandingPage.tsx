@@ -19,7 +19,7 @@ function LandingPage() {
                             initial={{width: 0}} 
                             animate={{width: "6vw"}} 
                             transition={{ease: [0.76, 0, 0.24, 1], duration: 1}}
-                            className="mr-[1vw] w-[7vw] h-[5vw] rounded-md relative bg-slate-700"
+                            className="mr-[1vw] h-[9vw] w-[8vw] sm:h-[5vw] rounded-md relative bg-slate-700"
                             > 
                                 <img src={image} className="h-[100%] w-[100%] object-fit" /> 
                         </motion.div>)
@@ -33,16 +33,19 @@ function LandingPage() {
         })}  
       </div>
 
-      <div className="border-t-[1px]  border-zinc-400 mt-[18vh] flex justify-between items-center py-4 px-8 ">
+        <div className="border-t-[1px] border-zinc-400 mt-[18vh] 
+            flex flex-col items-start gap-[6vw] sm:flex 
+            justify-between sm:items-center py-4 px-4 sm:px-8 "
+        >
         {["For public and private companies", "From the first pitch to IPO"].map((item, index) => {
             return (
-                <h4 key={index} className="text-gray-900 text-[1.2vw] font-normal tracking-tight leading-none" >
+                <h4 key={index} className="text-gray-900 sm:text-[1.2vw] font-normal tracking-tight leading-none" >
                     {item}
                 </h4>
             )
         })}
         <div>
-            <h4 className={`${styles.heading4} relative text-gray-900 text-[.7vw] px-[18px] 
+            <h4 className={`${styles.heading4} relative text-gray-900 sm:text-[.7vw] px-[18px] 
                 py-[8px] border-[1px] border-[#111] rounded-[50px] overflow-hidden`}
             >
                 <a className={`${styles.atag} text-gray-900`}>Start project</a>
