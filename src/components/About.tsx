@@ -26,7 +26,7 @@ function About() {
                     </h4>
                 </div>
             </div>
-            <div className='mt-8 w-1/2 h-[60vh]  '>
+            <div className='mt-8 sm:w-1/2 h-[60vh]  '>
                 <img src={image} className='w-[100%] h-[100%] object-cover rounded-xl' />
             </div>
         </div>
