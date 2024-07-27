@@ -34,7 +34,7 @@ function Featured() {
             className='px-8'
         >
             <div 
-                className='cards w-full flex gap-4 '
+                className='cards w-full flex flex-col gap-4 sm:flex sm:gap-4 '
             >
                 <motion.div 
                     whileHover={{ scale: .95, zIndex: 1 }}
@@ -42,7 +42,7 @@ function Featured() {
                     transition={{ease: [0.76, 0, 0.24, 1]}}
                     onHoverStart={() => handleHover(0)} 
                     onHoverEnd={() => handleHoverEnd(0)}
-                    className='cardcontainer relative w-1/2 h-[75vh]'
+                    className='cardcontainer relative sm:w-1/2 h-[75vh]'
                 >                    
                     <h1 
                         className='absolute flex right-0 translate-x-1/2 
@@ -78,7 +78,7 @@ function Featured() {
                     transition={{ease: [0.76, 0, 0.24, 1]}}
                     onHoverStart={() => handleHover(1)} 
                     onHoverEnd={() => handleHoverEnd(1)}
-                    className='cardcontainer relative w-1/2 h-[75vh]'
+                    className='cardcontainer relative sm:w-1/2 h-[75vh]'
                 >
                     <div 
                         className='card rounded-lg w-full h-full 
