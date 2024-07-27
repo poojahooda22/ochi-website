@@ -9,7 +9,7 @@ function LandingPage() {
         data-scroll data-scroll-speed="-.3"  
         className="w-full h-screen pt-1"
     >
-      <div className="textstructure mt-[12vh] px-8">
+      <div className="textstructure mt-[26vw] sm:mt-[12vh] px-4 sm:px-8">
         {["We Create", "Eye-Opening", "Presentations"].map((text, index) => {
             return (
                 <div key={index} className="masker ">
@@ -24,7 +24,7 @@ function LandingPage() {
                                 <img src={image} className="h-[100%] w-[100%] object-fit" /> 
                         </motion.div>)
                         }
-                        <h1 className={` uppercase text-[8vw] font-[Roboto] tracking-normal leading-[6vw] font-bold`}>
+                        <h1 className={` uppercase text-[14vw] leading-[11vw] sm:text-[8vw] font-[Roboto] tracking-normal sm:leading-[6vw] font-bold`}>
                             {text}    
                         </h1>
                     </div>
