@@ -33,7 +33,8 @@ function LandingPage() {
         })}  
       </div>
 
-      <div className="border-t-[1px]  border-zinc-400 mt-[18vh] flex flex-col items-start sm:flex justify-between sm:items-center py-4 px-8 ">
+      <div className="border-t-[1px]  border-zinc-400 mt-[18vh] 
+      flex flex-col items-start gap-[2vw] sm:flex justify-between sm:items-center py-4 px-4 sm:px-8 ">
         {["For public and private companies", "From the first pitch to IPO"].map((item, index) => {
             return (
                 <h4 key={index} className="text-gray-900 sm:text-[1.2vw] font-normal tracking-tight leading-none" >
