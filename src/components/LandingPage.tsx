@@ -52,7 +52,7 @@ function LandingPage() {
             >
                 <a className={`${styles.atag} text-gray-900`}>
                     Start project
-                    </a>
+                </a>
             </h4>
         </div>
       </div>
