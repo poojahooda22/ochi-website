@@ -9,7 +9,7 @@ function LandingPage() {
         data-scroll data-scroll-speed="-.3"  
         className="w-full h-screen pt-1"
     >
-      <div className="textstructure mt-[26vw] sm:mt-[12vh] px-4 sm:px-8">
+        <div className="textstructure mt-[26vw] sm:mt-[12vh] px-4 sm:px-8">
         {["We Create", "Eye-Opening", "Presentations"].map((text, index) => {
             return (
                 <div key={index} className="masker ">
@@ -31,7 +31,7 @@ function LandingPage() {
                 </div>
             )
         })}  
-      </div>
+        </div>
 
         <div 
             className="border-t-[1px] border-zinc-400 mt-[18vh] 
