@@ -51,7 +51,8 @@ function LandingPage() {
                 py-[8px] border-[1px] border-[#111] rounded-[50px] overflow-hidden`}
             >
                 <a className={`${styles.atag} text-gray-900`}>
-                    Start project</a>
+                    Start project
+                    </a>
             </h4>
         </div>
       </div>
