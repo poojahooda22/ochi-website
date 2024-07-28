@@ -50,7 +50,8 @@ function LandingPage() {
                 className={`${styles.heading4} relative text-gray-900 sm:text-[.7vw] px-[18px] 
                 py-[8px] border-[1px] border-[#111] rounded-[50px] overflow-hidden`}
             >
-                <a className={`${styles.atag} text-gray-900`}>Start project</a>
+                <a className={`${styles.atag} text-gray-900`}>
+                    Start project</a>
             </h4>
         </div>
       </div>
