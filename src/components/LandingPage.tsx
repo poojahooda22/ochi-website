@@ -34,7 +34,7 @@ function LandingPage() {
       </div>
 
         <div 
-        className="border-t-[1px] border-zinc-400 mt-[18vh] 
+            className="border-t-[1px] border-zinc-400 mt-[18vh] 
             flex flex-col items-start gap-[6vw] sm:flex 
             justify-between sm:items-center py-4 px-4 sm:px-8 "
         >
