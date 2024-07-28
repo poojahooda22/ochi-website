@@ -40,7 +40,8 @@ function LandingPage() {
         >
         {["For public and private companies", "From the first pitch to IPO"].map((item, index) => {
             return (
-                <h4 key={index} className="text-gray-900 sm:text-[1.2vw] 
+                <h4 
+                key={index} className="text-gray-900 sm:text-[1.2vw] 
                     font-normal tracking-tight leading-none" >
                     {item}
                 </h4>
